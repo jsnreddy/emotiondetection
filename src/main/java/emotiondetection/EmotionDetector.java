@@ -30,7 +30,7 @@ public class EmotionDetector {
 	}
 
 	public static void preProcess(File raw_data, File sentences, File input_data) {
-		//		input/Emotion_Data_Train_and_Test.txt
+		//		resources/Emotion_Data_Train_and_Test.txt
 
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(raw_data));
@@ -77,9 +77,9 @@ public class EmotionDetector {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		File raw_data = new File("input/Emotion_Data_Train_and_Test.txt");
-		File sentences = new File("input/sentences.txt");
-		File input_data = new File("input/input_data.txt");
+		File raw_data = new File("resources/Emotion_Data_Train_and_Test.txt");
+		File sentences = new File("resources/sentences.txt");
+		File input_data = new File("resources/input_data.txt");
 
 		preProcess(raw_data, sentences, input_data);
 
