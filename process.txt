@@ -1,0 +1,6 @@
+data processing
+	all text to lower case.
+	tokenizing sentences.
+	stemming.
+	remove stop words from set of tokens.
+	the resulting set of tokenized sentences are passed through TF-IDF to determine word relevance according to each emotion class.
